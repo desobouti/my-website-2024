@@ -42,12 +42,12 @@ body h3 {
   }
 }
 body p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #361d32;
 }
 @media only screen and (min-width: 768px) {
   body p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 body a:not(.icon) {
@@ -80,7 +80,7 @@ body a:not(.icon):focus-visible {
   outline-color: #ffd7c5;
 }
 body ul {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #361d32;
   list-style: none;
   padding: 0;
@@ -88,7 +88,7 @@ body ul {
 }
 @media only screen and (min-width: 768px) {
   body ul {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -193,11 +193,6 @@ body section:not(:last-child) {
 .project-item .project-info {
   display: none;
   margin-bottom: 4rem;
-}
-@media only screen and (min-width: 768px) {
-  .project-item .project-info {
-    margin-bottom: 6rem;
-  }
 }
 .project-item .project-info.active {
   display: block;
