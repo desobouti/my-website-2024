@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 	console.log($('html').attr('lang'));
 	if($('html').attr('lang') == 'es') {
-		window.location.pathname = $(location).attr('hostname') + '/es';
+		window.location.pathname = '/es';
 	} else {
-		window.location.pathname = $(location).attr('hostname') + '/en';		
+		window.location.pathname = '/en';		
 	}
 
 	$('.project-item').each(function() {
