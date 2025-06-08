@@ -286,7 +286,7 @@ body section:not(:last-child) {
 }
 
 footer {
-  background-image: url("../../web/images/bg-header.jpg");
+  background-image: url("images/bg-header.jpg");
   background-position: center;
   background-size: cover;
   padding: 1.6rem;
@@ -305,7 +305,7 @@ footer .container {
 
 header {
   position: relative;
-  background-image: url("../../web/images/bg-header.jpg");
+  background-image: url("images/bg-header.jpg");
   background-position: center;
   background-size: cover;
   padding: 3rem 1.6rem;
