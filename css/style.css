@@ -77,7 +77,11 @@ body a:not(.icon):focus {
   color: #361d32;
 }
 body a:not(.icon):focus-visible {
-  outline-color: #ffd7c5;
+  outline: 0.1rem solid #361d32;
+  outline-offset: 0.2rem;
+}
+body a:not(.icon):focus-visible:before {
+  background-color: #dde8de;
 }
 body ul {
   font-size: 1.6rem;
@@ -169,6 +173,7 @@ body section:not(:last-child) {
   display: flex;
   flex-direction: row;
   align-content: center;
+  align-items: start;
   gap: 0.8rem;
   margin-bottom: 2rem;
 }
@@ -176,6 +181,10 @@ body section:not(:last-child) {
   background-color: transparent;
   border: 0;
   padding: 0;
+}
+.project-item .project-header button:focus-visible {
+  outline: 0.1rem solid #361d32;
+  outline-offset: 0.2rem;
 }
 .project-item .project-header button.active svg {
   transform: rotate(180deg);
@@ -250,6 +259,10 @@ body section:not(:last-child) {
   margin-top: -0.8rem;
   transition: margin-top 0.15s;
 }
+.social-icons li a:focus-visible {
+  outline: 0.1rem solid #361d32;
+  outline-offset: 0.2rem;
+}
 .social-icons li a.linkedin svg {
   width: 2.8rem;
   height: 2.5rem;
@@ -273,7 +286,7 @@ body section:not(:last-child) {
 }
 
 footer {
-  background-image: url("../images/bg-header.jpg");
+  background-image: url("../../web/images/bg-header.jpg");
   background-position: center;
   background-size: cover;
   padding: 1.6rem;
@@ -292,7 +305,7 @@ footer .container {
 
 header {
   position: relative;
-  background-image: url("../images/bg-header.jpg");
+  background-image: url("../../web/images/bg-header.jpg");
   background-position: center;
   background-size: cover;
   padding: 3rem 1.6rem;
